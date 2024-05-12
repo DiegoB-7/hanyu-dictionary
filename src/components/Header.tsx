@@ -1,6 +1,7 @@
 import { useLocation } from 'preact-iso';
 import Logo from '../assets/logo.png';
-
+import { SignInButton } from './SingInButton';
+import { SignUpButton } from './SignUpButton';
 export function Header() {
 	const { url } = useLocation();
 
@@ -18,6 +19,12 @@ export function Header() {
 							</li>
 							<li class="p-2 font-semibold">
 								<a href="/about" class={url === '/about' ? 'active' : ''}>About</a>
+							</li>
+							<li class="p-2 font-semibold">
+								<SignInButton />
+							</li>
+							<li class="p-2 font-semibold">
+								<SignUpButton/>
 							</li>
 						</ul>
 					</div>

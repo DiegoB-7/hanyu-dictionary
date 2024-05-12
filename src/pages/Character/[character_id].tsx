@@ -7,29 +7,13 @@ export function CharacterDetail() {
     <div class="flex flex-col items-center justify-center bg-gray-50 px-4">
       <div class="max-w-3xl w-full mb-3">
         <section class="bg-white  rounded-xl shadow-lg overflow-hidden mt-20">
-          <div class="grid md:grid-cols-2">
+          <div class="grid md:grid-cols-1">
             <div class="p-8 flex flex-col items-center justify-center">
               <div class="text-9xl font-bold text-primary ">字</div>
               <div class="mt-4 text-2xl font-medium text-black ">Zì</div>
               <div class="mt-2 text-black">Character, Word</div>
             </div>
-            <div class="bg-gray-100  p-8 flex flex-col items-start justify-center">
-              <h2 class="text-2xl font-bold text-gray-900 ">
-                About the Character
-              </h2>
-              <p class="mt-4 text-gray-700  leading-relaxed">
-                The Chinese character "字" (Zì) is a fundamental character that
-                represents the concept of a character, word, or written
-                language. It is a versatile character that can be used in
-                various contexts, from formal writing to casual conversation.
-              </p>
-              <p class="mt-4 text-gray-700  leading-relaxed">
-                The character is pronounced as "zì" and is composed of two
-                radicals: the "bamboo" radical on the left and the "child"
-                radical on the right, symbolizing the growth and development of
-                written language.
-              </p>
-            </div>
+            
           </div>
         </section>
         <section class="mt-8 bg-white  rounded-xl shadow-lg">
